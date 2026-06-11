@@ -52,7 +52,7 @@ app.use((_req: Request, res: Response, next: NextFunction) => {
 
 // CORS configuration
 const allowedOrigins = [
-  isProduction() 
+  isProduction()
     ? [
         `http://localhost:5000`,
         `http://127.0.0.1:5000`,

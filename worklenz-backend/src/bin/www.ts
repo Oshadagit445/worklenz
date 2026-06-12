@@ -117,4 +117,4 @@ process.on("SIGINT", () => {
 
 server.listen(port);
 
-console.log("ENV CHECK:", process.env.DB_PASSWORD);//
+//console.log("ENV CHECK:", process.env.DB_PASSWORD);
